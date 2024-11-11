@@ -11,5 +11,10 @@ int main() {
         printf("Cima e Direita\n");
     }
 
+    printf("\nMovimentação da Torre:\n");
+    for (int i = 0; i < MOVIMENTO_TORRE; i++) {
+        printf("Direita\n");
+    }
+    
     return 0;
 }
